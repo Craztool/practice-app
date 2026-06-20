@@ -1,4 +1,4 @@
-apiVersion: v1
+apigVersion: v1
 kind: Service
 metadata:
   name: practice-app-service
