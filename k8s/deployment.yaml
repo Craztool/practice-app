@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: practice-app-Deployment
+  name: practice-app-deployment
 spec:
   replicas: 1
   selector:
@@ -12,9 +12,9 @@ spec:
       labels:
         app: practice-app
 
-  spec:
-    containers:
-      - name: practice-container
-        image: ghcr.ip/craztool/practice-app:latest
-        ports:
+    spec:
+      containers:
+        - name: practice-container
+          image: ghcr.io/craztool/practice-app:latest
+          ports:
           - containerPort: 8080
