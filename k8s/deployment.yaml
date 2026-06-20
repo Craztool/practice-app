@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: practice-container
-          image: ghcr.io/craztool/practice-app:03571b2
+          image: ghcr.io/craztool/practice-app:e786235
           ports:
           - containerPort: 8080
