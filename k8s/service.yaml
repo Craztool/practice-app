@@ -1,0 +1,31 @@
+appVersion:v1
+kind: Service
+metadata:
+  name: practice-app-service
+spec:
+  selector:
+    app: practice-app
+  ports:
+    - protocol:TCP
+      port: 80
+      targetPort: 8080
+  type:ClusterIP
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
